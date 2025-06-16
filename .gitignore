@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# VS Code settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Data & outputs
+data/
+*.csv
+*.tsv
+*.json
+*.xlsx
+*.xls
+*.db
+*.sqlite
+*.h5
+*.pkl
+*.npz
+*.npy
+
+# Model binaries
+*.pt
+*.pth
+*.hdf5
+*.ckpt
+*.joblib
+*.sav
+
+# TensorBoard and experiment logs
+runs/
+events.out.tfevents.*
+
+# Saved models and checkpoints
+checkpoints/
+models/
+
+# Weights & biases, MLFlow, etc.
+wandb/
+mlruns/
+
+# Pip & poetry
+pip-wheel-metadata/
+poetry.lock
+
+# Test and cache files
+.cache/
+.pytest_cache/
+__tests__/
+
+# Notebook conversion artifacts
+*.nbconvert.*
+
+# Secrets
+*.key
+*.pem
+secrets.env
+config.yaml
+config.json
+
+# Docker
+*.pid
+*.sock
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.tmp
